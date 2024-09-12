@@ -1,19 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 600px;
-    padding: 20px;
-    border-radius: 10px;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    
-    margin: 390px auto 20px;
+    width: 100%;
+    min-height: 100vh; 
+    padding: 10px;
 }
 
 .todolist-body {
     width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 100px auto 20px;
     padding: 40px 30px 70px;
+    background: #ffffff;
     
 }
 
