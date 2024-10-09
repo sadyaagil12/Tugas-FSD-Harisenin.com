@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.slider-container {
+    padding: 0;
+    margin: 0;
+    padding: 5rem;
+    background-color: #22282A;
+    position: relative;
+}
+
+.box {
+   
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-left: 5px;
+}
+
+.slick-slide>div{
+    margin: 0 10px;
+}
+
+.gradient {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%; 
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+    border-radius:5px ;  
+}
+
+.slick-arrow::before {
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+.cardtitle {
+    position: absolute;
+    justify-content: space-between;
+    bottom: 5px;
+    color: white;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.title {
+    margin-left: auto;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.pin {
+   position: absolute;
+   top: 10px;
+   left: 10px;
+   margin: 0;
+}
+
+.top {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin: 0;
+    // padding: 0px 5px;
+}
+
+h2 {
+    color: white;
+    margin: 0 0 1rem 1fr;
+    margin-left: 12px;
+    font-weight: 400;
+}
+
+.img {
+    border-radius: 6px;
+    height: 162px;
+    width: 302px;
+}
+.cardtrend {
+    border-radius: 6px;
+    height: 365px;
+    width: 210px;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .cardtitle {
+      font-size: 14px; /* Ukuran teks lebih kecil untuk layar yang lebih kecil */
+      padding: 10px; /* Lebih banyak ruang padding untuk tampilan yang lebih rapi */
+    }
+  
+    .cardtitle img {
+      width: 15px; /* Kurangi ukuran bintang di layar yang lebih kecil */
+      height: 15px;
+    }
+  
+    .gradient {
+      height: 40%; /* Kurangi tinggi gradient agar tidak terlalu menutupi gambar di layar kecil */
+    }
+  }

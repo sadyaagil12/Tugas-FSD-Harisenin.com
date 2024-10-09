@@ -1,0 +1,54 @@
+.image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 70%; 
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+
+  }
+
+.carousel-btn{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+   }
+   
+   .btn-md {
+    width: 93px !important;
+    border-radius: 24px;
+    background-color: #0F1E93;
+    border-color: #0F1E93; 
+   
+   }
+ 
+  .btn-md1 {
+    display: flex;            
+    align-items: center;      
+    justify-content: flex-start; 
+    padding-left: 15px;       
+    width: 185px;
+    border-radius: 24px;
+    background-color: #22282A;
+    border-color: #22282A;
+    color: white;     
+    background-repeat: no-repeat;        
+  }
+
+  .btn-icon {
+    margin-right: 10px;       
+  }
+  
+  .btn-md2 {
+    background-color: transparent;
+    border-radius: 24px;
+    color: #C1C2C4;
+  }
+  
+  .btn-md3 {
+    margin-left: 800px;
+    background-color: transparent;
+    border-radius: 24px;
+    color: #C1C2C4;
+    
+  }
