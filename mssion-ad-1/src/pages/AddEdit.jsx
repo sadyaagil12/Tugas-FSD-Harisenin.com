@@ -70,7 +70,7 @@ const AddEdit = () => {
         const newMovieRef = push(moviesRef);
         set(newMovieRef, state)
           .then(() => {
-            toast.success("Movie Updated Successfully");
+            toast.success("Movie added Successfully");
             setTimeout(() => navigate("/"), 500);
           })
           .catch((err) => {
